@@ -125,7 +125,7 @@ class ModernCalculator(tk.Tk):
                 btn.bind('<Leave>', lambda e, w=btn, key=key: w.configure(bg=self.reset_color(key)))
 
         # small footer
-        footer = tk.Label(self, text='Designed by Gemini • Safe eval for basic math',
+        footer = tk.Label(self, text='Designed by Dhruv Verma • Safe eval for basic math',
                           bg=self.bg, fg='#888', font=("Segoe UI", 8))
         footer.place(relx=0.05, rely=0.94, relwidth=0.9)
 
@@ -247,3 +247,4 @@ class ModernCalculator(tk.Tk):
 if __name__ == '__main__':
     app = ModernCalculator()
     app.mainloop()
+
